@@ -1,9 +1,11 @@
+import "/src/Sass/Home.scss";
 import { Link } from 'react-scroll';
+
 export default function Navigation () {
     return (
         <>
-            <nav>
-                <ul>
+            <nav className="navigation">
+                <ul className="navigation-list">
                     <li><Link to="start" smooth={true} duration={500}>Start</Link></li>
                     <li><Link to="all-about" smooth={true} duration={500}>O co chodzi?</Link></li>
                     <li><Link to="about-us" smooth={true} duration={500}>O nas</Link></li>
