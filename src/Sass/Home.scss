@@ -7,6 +7,7 @@
   margin: 0 auto;
   text-align: center;
   font-family: $main-font;
+  color: #3C3C3C;
 }
 .home {
   position: relative;
@@ -69,7 +70,6 @@
   position: absolute;
   top: 342px;
   left: 951px;
-  width: 674px;
   height: 107px;
   padding-top: 219px;
   h1 {
@@ -95,4 +95,36 @@
     opacity: 1;
     cursor: pointer;
   }
+}
+
+.home-columns {
+  height: 384px;
+  background: url('/src/assets/3 Columns Background.png') no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h2 {
+
+    margin: 10px;
+    font: normal normal 300 90px/122px Open Sans;
+  }
+  h3 {
+    font: normal normal normal 18px/30px Open Sans;
+  }
+  p {
+    font: normal normal 300 16px/18px Merriweather;
+  }
+}
+
+.home-columns-flex {
+  display: flex;
+  width: 334px;
+  height: 252px;
+}
+
+.home-columns-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
