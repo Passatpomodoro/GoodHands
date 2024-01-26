@@ -89,8 +89,7 @@
     width: 310px;
     text-align: center;
     font: normal normal 300 36px/45px Open Sans;
-    letter-spacing: 0px;
-    background: #00000000 0% 0% no-repeat padding-box;
+    background: #00000000 no-repeat padding-box;
     border: 0.75px solid $dark-grey;
     opacity: 1;
     cursor: pointer;
@@ -127,4 +126,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home-all-about {
+  height: 325px;
+  background-color: #F0F1F1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-all-about-us {
+  h1 {
+    padding-top: 55px;
+    padding-bottom: 25px;
+  }
+}
+
+.home-all-about-decoration {
+  padding-bottom: 34px;
+}
+
+.home-all-about-icon {
+  height: 83px;
+  width: 83px;
+}
+
+.home-columns-flex-all-about {
+  display: flex;
+  width: 130px;
+  height: 172px;
+}
+
+.home-all-about-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+  button {
+    height: 120px;
+    width: 310px;
+    text-align: center;
+    font: normal normal 300 36px/45px Open Sans;
+    background: #00000000 no-repeat padding-box;
+    border: 0.75px solid $dark-grey;
+    opacity: 1;
+    cursor: pointer;
+  }
 }
