@@ -110,6 +110,7 @@
   h3 {
     font: normal normal normal 18px/30px Open Sans;
   }
+
   p {
     font: normal normal 300 16px/18px Merriweather;
   }
@@ -126,6 +127,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 170px;
+  h3 {
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  h3::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .home-all-about {
@@ -156,7 +174,7 @@
 
 .home-columns-flex-all-about {
   display: flex;
-  width: 130px;
+  max-width: 170px;
   height: 172px;
 }
 
@@ -218,4 +236,70 @@
   position: relative;
   margin-top: 20px;
   left: 230px;
+}
+
+.home-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.home-contact-background {
+  height: 935px;
+  background: url('/src/assets/Background-Contact-Form.jpg') no-repeat top;
+  background-size: cover;
+  width: 1900px;
+  opacity: 10%;
+  position: absolute;
+  z-index: -1;
+}
+
+.home-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+  width: 528px;
+  height: 327px;
+  h1 {
+    font: normal normal normal 38px/55px Open Sans;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+  }
+}
+
+form {
+
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 870px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 16px;
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 62px;
+  }
+}
+
+.home-form-contact-info {
+  display: flex;
 }

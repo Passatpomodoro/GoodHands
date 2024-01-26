@@ -10,7 +10,7 @@ import SignIn from "./Views/SignIn.jsx";
 import AllAbout from "./Components/AllAbout.jsx";
 import AboutUs from "./Components/AboutUs.jsx";
 import FoundationAndOrganizations from "./Components/FoundationAndOrganizations.jsx";
-import Contact from "./Components/contact.jsx";
+import Contact from "./Components/Contact.jsx";
 import NotFound from "./Views/404NotFound.jsx";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
                 <Route path="/about-us" element={<AboutUs/>}/>
                 <Route path="/foundation-and-organizations" element={<FoundationAndOrganizations/>}/>
                 <Route path="/contact" element={<Contact/>}/>
-                <Route path="/Err404" element={<NotFound/>}/>
+                <Route path="*" component={NotFound} />
             </Routes>
         </Router>
     </>
