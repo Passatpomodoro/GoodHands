@@ -140,6 +140,8 @@
   h1 {
     padding-top: 55px;
     padding-bottom: 25px;
+    font: normal normal normal 38px/55px Open Sans;
+    letter-spacing: -0.76px;
   }
 }
 
@@ -172,4 +174,48 @@
     opacity: 1;
     cursor: pointer;
   }
+}
+
+.home-about-us {
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.home-about-us-content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  background-color: #F0F1F1;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 657px;
+  }
+
+  h1 {
+    font: normal normal normal 38px/55px Open Sans;
+  }
+
+  p {
+    font: normal normal normal 30px/54px Open Sans;
+    letter-spacing: -0.6px;
+  }
+}
+
+.home-about-us-image-container {
+  flex: 1;
+  position: relative;
+}
+
+.home-about-us-image {
+  background: url('/src/assets/People.jpg') no-repeat center left;
+  background-size: cover;
+  height: 935px;
+}
+
+.home-about-us-signature {
+  position: relative;
+  margin-top: 20px;
+  left: 230px;
 }

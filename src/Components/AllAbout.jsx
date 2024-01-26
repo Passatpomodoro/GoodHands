@@ -1,7 +1,7 @@
 export default function AllAbout () {
     return (
         <>
-            <div id="about-us">
+            <div id="all-about">
                 <div className="home-all-about-us">
                     <h1>Wystarczą 4 proste kroki</h1>
                     <img className="home-all-about-decoration" src="/src/assets/Decoration.svg"/>
