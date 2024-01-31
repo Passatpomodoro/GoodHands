@@ -67,8 +67,8 @@ export default function Contact () {
                         <div></div>
                         <span>Copyright by Coders Lab</span>
                         <div>
-                            <img className=".copyright-social" src="/src/assets/Facebook.svg"/>
-                            <img className=".copyright-social" src="/src/assets/Instagram.svg"/>
+                            <img className="copyright-social" src="/src/assets/Facebook.svg"/>
+                            <img className="copyright-social" src="/src/assets/Instagram.svg"/>
                         </div>
                     </div>
                 </div>
